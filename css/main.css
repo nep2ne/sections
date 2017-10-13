@@ -2,6 +2,9 @@ html {
   background-color: #eee9de;
   font-family: Lato, sans-serif;
   line-height: 1.5;
+  margin: 1.5rem;
+  max-width: 25em;
+  padding: 1em;
   text-align: center;
   box-sizing: border-box;
 }
@@ -10,12 +13,31 @@ html {
     box-sizing: inherit;
 }
 
+header {
+  display: inline-block;
+}
+
 h2 {
+  margin: 0;
   text-align: left;
 }
 
-.content {
+.top {
+  display: inline-block;
+  margin: 1.5rem;
+}
+
+.headline {
   text-align: left;
+}
+.content {
+  display: inline-block;
+  text-align: left;
+}
+
+p {
+  margin: 0;
+  padding: 2em 0;
 }
 
 a,
@@ -25,6 +47,7 @@ a:link {
   border-radius: 5px;
   color: #333;
   display: inline-block;
+  padding: .4em .75em .5em;
   text-decoration: none;
 }
 
