@@ -1,12 +1,11 @@
 html {
   background-color: #eee9de;
-  display: inline;
+  display: inline-block;
   font-family: Lato, sans-serif;
   line-height: 1.5;
   margin: 0;
-  padding: 1em;
+  padding: 3em 1em 1em;
   text-align: center;
-  vertical-align: middle;
   box-sizing: border-box;
 }
 
@@ -14,23 +13,21 @@ html {
   box-sizing: inherit;
 }
 
-body {
+.container {
+  display: inline-block;
   margin: 0;
 }
 
-section {
-  display: inline-block;
-}
-
-section img {
-  display: inline-block;
-  max-width: 25em;
-  width: 100%;
+.section1 {
+  display: inline;
+  max-width: 400px;
 }
 
 img {
-  display: inline-block;
+  display: block;
   width: 100%;
+  max-width: 25em;
+  vertical-align: middle;
 }
 
 section div {
@@ -42,7 +39,8 @@ section div {
 }
 
 section h2 {
-  display: block;
+  display: inline-block;
+  padding: .7em 0;
   text-align: left;
 }
 
@@ -58,8 +56,8 @@ a {
 
 .btn {
   background-color: #eee9de;
-  border: 2px solid #333;
-  border-radius: 5px;
+  border: 3px solid #333;
+  border-radius: 8px;
   color: #333;
   padding: .4em .75em .5em;
   text-decoration: none;
@@ -67,7 +65,7 @@ a {
 
 a:hover {
   background-color: #666;
-  border: 2px solid #333;
-  border-radius: 5px;
+  border: 3px solid #333;
+  border-radius: 8px;
   color: #eee9de;
 }
