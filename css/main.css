@@ -1,9 +1,7 @@
 html {
   background-color: #eee9de;
-  display: inline-block;
   font-family: Lato, sans-serif;
   line-height: 1.5;
-  text-align: center;
   box-sizing: border-box;
 }
 
@@ -12,46 +10,48 @@ html {
 }
 
 body {
-  display: inline-block;
   margin: 0;
-  padding: 1em;
-  width: 100%;
+  padding-left: 1em;
+  vertical-align: middle;
 }
 
-.child {
-  display: inline;
-  float: left;
-  width: 380px;
-  margin-right: 1.5rem;
-  max-width: 20em;
+#container {
+  margin: 0 auto;
+  max-width: 50.2em;
+  text-align: center;
+}
+
+.div1 {
+  display: inline-block;
+  margin: 0;
+  max-width: 25em;
+  padding-top: 1em;
+  padding-right: 1em;
+}
+
+.div2 {
+  display: inline-block;
+  max-width: 25em;
+  padding-right: 2em;
   text-align: left;
 }
 
 img {
   display: block;
   width: 100%;
-  margin: 2rem 0;
-  min-width: 5em;
-  max-width: 18em;
-  vertical-align: middle;
+  max-width: 369px;
+  padding: 2em 0 0;
+  text-align: center;
 }
 
-section h2 {
-  display: inline-block;
-  margin-top: 0;
-}
-
-div p {
-  display: inline-block;
-  line-height: 1.5;
-  max-width: 18em;
-  margin: 0;
-  padding-top: .4em;
-  padding-bottom: 1.5em;
+h2 {
+  margin: 1.6rem 0;
 }
 
 a {
   display: inline-block;
+  margin-top: .68rem;
+  /*margin-bottom: 2em;*/
   text-align: left;
   font-size: 1.1rem;
 }
@@ -62,7 +62,7 @@ a {
   border-radius: 8px;
   color: #333;
   padding: .4em .75em .5em;
-  margin-bottom: 1.5rem;
+  margin-bottom: 2.8rem;
   text-decoration: none;
 }
 
