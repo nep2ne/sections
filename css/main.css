@@ -18,8 +18,19 @@ h2 {
   text-align: left;
 }
 
-a {
+a,
+a:link {
+  background-color: #eee9de;
+  border: 1px solid #333;
+  border-radius: 5px;
   color: #333;
   display: inline-block;
   text-decoration: none;
+}
+
+a:hover {
+  background-color: #666;
+  border: 1px solid #333;
+  border-radius: 5px;
+  color: #eee9de;
 }
