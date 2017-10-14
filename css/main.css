@@ -12,13 +12,13 @@ html {
 body {
   margin: 0;
   padding-left: 1em;
-  vertical-align: middle;
 }
 
 #container {
   margin: 0 auto;
   max-width: 50.2em;
   text-align: center;
+  vertical-align: middle;
 }
 
 .div1 {
@@ -27,6 +27,7 @@ body {
   max-width: 25em;
   padding-top: 1em;
   padding-right: 1em;
+  vertical-align: middle;
 }
 
 .div2 {
@@ -34,6 +35,7 @@ body {
   max-width: 25em;
   padding-right: 2em;
   text-align: left;
+  vertical-align: middle;
 }
 
 img {
@@ -42,6 +44,7 @@ img {
   max-width: 369px;
   padding: 2em 0 0;
   text-align: center;
+  vertical-align: middle;
 }
 
 h2 {
@@ -51,7 +54,6 @@ h2 {
 a {
   display: inline-block;
   margin-top: .68rem;
-  /*margin-bottom: 2em;*/
   text-align: left;
   font-size: 1.1rem;
 }
@@ -62,7 +64,7 @@ a {
   border-radius: 8px;
   color: #333;
   padding: .4em .75em .5em;
-  margin-bottom: 2.8rem;
+  margin-bottom: 1.5rem;
   text-decoration: none;
 }
 
